@@ -1,5 +1,4 @@
-package limit;
-
+package bai3.limit;
 public class Withdraws implements Runnable {
     private BankAccount bankAccount;
 

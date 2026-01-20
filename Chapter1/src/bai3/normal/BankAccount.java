@@ -1,4 +1,4 @@
-package normal;
+package bai3.normal;
 public class BankAccount {
     private double balance;
     // private static final double MAX_VALUE=100000;

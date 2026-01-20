@@ -1,4 +1,4 @@
-package normal;
+package bai3.normal;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

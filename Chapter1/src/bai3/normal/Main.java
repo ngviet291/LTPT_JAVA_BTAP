@@ -1,4 +1,4 @@
-package normal;
+package bai3.normal;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package limit;
+package bai3.limit;
 
 public class Main {
     public static void main(String[] args) {
