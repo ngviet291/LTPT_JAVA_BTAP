@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e07e9c26-147b-46e8-911b-b431594e8422" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/com/ngviet291/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/com/ngviet291/DemoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/packing2/DemoLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/packing2/GarageLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/state/DemoState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/week3/iuh/DemoGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NguyenTranQuocViet_23660721/src/week3/iuh/ParkingGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STT73_23660721_NguyenTranQuocViet_Json/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STT73_23660721_NguyenTranQuocViet_Json/src/main/java/com/ngviet291/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STT73_23660721_NguyenTranQuocViet_Json/src/main/java/com/ngviet291/entity/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STT73_23660721_NguyenTranQuocViet_Json/src/main/java/com/ngviet291/entity/Student.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38Uvu3quYO7OMMpPHgPideiYUut" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoGarage.executor": "Run",
+    "Application.DemoList.executor": "Run",
+    "Application.DemoLock.executor": "Run",
+    "Application.DemoState.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/HKI2_NAM3/LTPT/LTPT_JAVA_BTAP/STT73_23660721_NguyenTranQuocViet_MariaDB",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/HKI2_NAM3/LTPT/LTPT_JAVA_BTAP/NguyenTranQuocViet_23660721/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e07e9c26-147b-46e8-911b-b431594e8422" name="Changes" comment="" />
+      <created>1768867184635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768867184635</updated>
+      <workItem from="1768867185805" duration="2595000" />
+      <workItem from="1768870293497" duration="3136000" />
+      <workItem from="1769471100605" duration="79000" />
+      <workItem from="1773100416149" duration="220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
