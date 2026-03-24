@@ -1,4 +1,5 @@
-package normal;
+package bai3.normal;
+
 
 public class Withdraws implements Runnable {
     private BankAccount bankAccount;

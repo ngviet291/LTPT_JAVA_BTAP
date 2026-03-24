@@ -1,4 +1,4 @@
-package normal;
+package bai3.normal;
 
 public class Deposits implements Runnable {
     private BankAccount bankAccount;

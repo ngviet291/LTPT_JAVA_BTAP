@@ -1,4 +1,4 @@
-package limit;
+package bai3.limit;
 
 public class Deposits implements Runnable {
     private BankAccount bankAccount;
