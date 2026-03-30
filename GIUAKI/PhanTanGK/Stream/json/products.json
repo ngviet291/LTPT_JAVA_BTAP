@@ -1,0 +1,36 @@
+[
+  {
+    "sku": 43900,
+    "name": "Duracell AAA Batteries (4-Pack)",
+    "type": "HardGood",
+    "price": 5.49,
+    "manufacturer": "Duracell",
+    "category": [
+      {
+        "id": "pcmcat312300050015",
+        "name": "Connected Home & Housewares"
+      },
+      {
+        "id": "pcmcat303600050001",
+        "name": "Household Batteries"
+      }
+    ]
+  },
+  {
+    "sku": 48530,
+    "name": "Duracell AA Batteries (4-Pack)",
+    "type": "HardGood",
+    "price": 5.49,
+    "manufacturer": "Duracell",
+    "category": [
+      {
+        "id": "pcmcat312300050015",
+        "name": "Connected Home & Housewares"
+      },
+      {
+        "id": "pcmcat303600050001",
+        "name": "Household Batteries"
+      }
+    ]
+  }
+]

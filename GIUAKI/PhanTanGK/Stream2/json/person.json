@@ -1,0 +1,98 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 25,
+    "address": {
+      "streetAddress": "21 2nd Street",
+      "city": "New York",
+      "state": "NY",
+      "postalCode": 10021
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "212 555-1234"
+      },
+      {
+        "type": "work",
+        "number": "212 555-5678"
+      }
+    ],
+    "course": {
+      "course_id": 1,
+      "course_name": "Da"
+    }
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Nguyen",
+    "age": 30,
+    "address": {
+      "streetAddress": "45 Le Loi",
+      "city": "Ho Chi Minh",
+      "state": "VN",
+      "postalCode": 70000
+    },
+    "phoneNumbers": [
+      {
+        "type": "mobile",
+        "number": "0909 123 456"
+      },
+      {
+        "type": "work",
+        "number": "028 1234 5678"
+      }
+    ],
+    "course": {
+      "course_id": 1,
+      "course_name": "Da"
+    }
+  },
+  {
+    "firstName": "David",
+    "lastName": "Lee",
+    "age": 28,
+    "address": {
+      "streetAddress": "88 Gangnam",
+      "city": "New York",
+      "state": "KR",
+      "postalCode": 60000
+    },
+    "phoneNumbers": [
+      {
+        "type": "mobile",
+        "number": "010-1234-5678"
+      }
+    ],
+    "course": {
+      "course_id": 1,
+      "course_name": "Da"
+    }
+  },
+  {
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "age": 35,
+    "address": {
+      "streetAddress": "12 Madrid Street",
+      "city": "Madrid",
+      "state": "ES",
+      "postalCode": 28001
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "91 123 4567"
+      },
+      {
+        "type": "mobile",
+        "number": "600 123 456"
+      }
+    ],
+    "course": {
+      "course_id": 1,
+      "course_name": "Da"
+    }
+  }
+]

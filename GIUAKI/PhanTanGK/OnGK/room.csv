@@ -1,0 +1,13 @@
+id,description,type,bedOptions,sleepsCount,smokingAllowed,price
+R101,Standard single room,Single,1 Queen Bed,1,false,100
+R102,Standard double room,Double,1 King Bed,2,false,150
+R103,Family room,Family,2 Queen Beds,4,false,250
+R104,Deluxe single room,Single,1 King Bed,1,false,200
+R105,Deluxe double room,Double,2 Double Beds,2,false,220
+R106,Business room,Business,1 King Bed,2,false,300
+R107,Suite room,Suite,1 King Bed + Sofa,3,false,400
+R108,Smoking single room,Single,1 Queen Bed,1,true,120
+R109,Smoking double room,Double,1 King Bed,2,true,180
+R110,Economy room,Single,1 Single Bed,1,false,80
+R111,Family deluxe room,Family,2 King Beds,4,false,350
+R112,Presidential suite,Suite,2 King Beds + Living Room,5,false,800

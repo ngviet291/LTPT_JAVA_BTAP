@@ -1,0 +1,2 @@
+Person(firstName=John, lastName=Smith, age=25, address=Address(streetAddress=21 2nd Street, city=New York, state=NY, postalCode=10021), phoneNumbers=[Phone(type=home, number=212 555-1234), Phone(type=work, number=212 555-5678)])
+Person(firstName=David, lastName=Lee, age=28, address=Address(streetAddress=88 Gangnam, city=New York, state=KR, postalCode=60000), phoneNumbers=[Phone(type=mobile, number=010-1234-5678)])
