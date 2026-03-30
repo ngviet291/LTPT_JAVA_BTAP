@@ -33,4 +33,4 @@ MERGE (d)-[:MANAGED_BY]->(e);
 LOAD CSV WITH HEADERS FROM 'file:///hiha/involvement.csv' AS row
 MATCH (e:Employee {id: row.employee_id})
 MATCH (p:Project {id: row.project_id})
-MERGE (e)-[:INVOLVE_IN]->(p);
+MERGE (e)-[:INVOLVE_IN {hours:toInteger(row.hours),role:row.role}]->(p);

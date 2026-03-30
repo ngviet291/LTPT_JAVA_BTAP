@@ -1,9 +1,6 @@
 package com.ngviet291.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.Set;
 
@@ -18,6 +15,8 @@ public class Employee {
     private String gender;
     private String phone;
     private Float salaryCoefficient;
+    @ToString.Exclude
     private Set<Involvement> involvements;
+    @ToString.Exclude
     private Department department;
 }

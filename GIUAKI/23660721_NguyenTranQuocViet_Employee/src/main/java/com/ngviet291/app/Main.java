@@ -2,6 +2,8 @@ package com.ngviet291.app;
 
 import com.ngviet291.dao.EmployeeDao;
 import com.ngviet291.entity.Employee;
+import com.ngviet291.entity.Role;
+import com.ngviet291.mapper.DataMapper;
 import com.ngviet291.service.EmployeeService;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -16,8 +18,14 @@ public class Main {
                 .phone("0908424063")
                 .salaryCoefficient(32.3f)
                 .build();
-        EmployeeDao employeeDao = new EmployeeDao();
+        DataMapper dataMapper= new DataMapper();
+        EmployeeDao employeeDao = new EmployeeDao(dataMapper);
         EmployeeService employeeService= new EmployeeService(employeeDao);
-        employeeService.addEmployee(employee);
+//        employeeService.addEmployee(employee);
+//        employeeService.listManagers().forEach(System.out::println);
+//        employeeService.getTotalIncomeOfEmployees().forEach((k,v)-> System.out.println(k+":"+v));
+        if(employeeService.updateRoleOfInvolvement("E23","P08", Role.RESPONSIBLE)){
+            System.out.println("Cap nhat thanh cong");
+        }else System.out.println("Cap nhat that bai");
     }
 }
