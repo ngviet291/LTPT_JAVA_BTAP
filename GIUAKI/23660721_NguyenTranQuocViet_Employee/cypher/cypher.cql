@@ -34,3 +34,13 @@ LOAD CSV WITH HEADERS FROM 'file:///hiha/involvement.csv' AS row
 MATCH (e:Employee {id: row.employee_id})
 MATCH (p:Project {id: row.project_id})
 MERGE (e)-[:INVOLVE_IN {hours:toInteger(row.hours),role:row.role}]->(p);
+
+CREATE FULLTEXT INDEX companyname IF NOT EXISTS
+FOR (s:Supplier)
+ON EACH [s.company_name]
+
+CREATE FULLTEXT INDEX [index_name] [IF NOT EXISTS]
+FOR (n:LabelName["|" ...])
+ON EACH "[" n.propertyName[, ...] "]"
+[OPTIONS "{" option: value[, ...] "}"]
+
