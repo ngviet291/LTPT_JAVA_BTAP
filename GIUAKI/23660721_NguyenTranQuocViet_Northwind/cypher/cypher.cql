@@ -33,3 +33,5 @@ MERGE (o)-[:ORDERS{quantity:toInteger(row.quantity),unit_price:toFloat(row.unit_
 CREATE RANGE INDEX companyName IF NOT EXISTS
 FOR (s:Supplier)
 ON (s.company_name)
+
+CREATE FULLTEXT INDEX companyName FOR (s:Supplier) ON EACH [s.company_name]

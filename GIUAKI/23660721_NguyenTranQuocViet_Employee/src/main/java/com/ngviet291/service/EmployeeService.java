@@ -23,7 +23,7 @@ public class EmployeeService {
         return employeeDao.listManagers();
     }
     public Map<Employee,Double> getTotalIncomeOfEmployees(){
-        return employeeDao.getTotalIncomeOfEmployees();
+        return employeeDao.getTotalIncomeOf Employees();
     }
     public boolean updateRoleOfInvolvement(String empID, String prjID, Role newRole){
         return employeeDao.updateRoleOfInvolvement(empID,prjID,newRole);
