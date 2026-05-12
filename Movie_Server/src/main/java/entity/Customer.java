@@ -1,13 +1,7 @@
 package entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.*;
 
 import java.util.Set;
 
@@ -17,10 +11,14 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "customers")
+@Builder
+@ToString
 public class Customer {
     @Id
+    @Column(name = "customer_id")
     private String id;
     private String name;
+    @Column(name = "year_of_birth")
     private int yearOfBirth;
     private String phone;
     private String address;
