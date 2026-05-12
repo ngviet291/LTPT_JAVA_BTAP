@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
+             version="3.2">
+    <persistence-unit name="MariaDB">
+<!--    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+<!--    <class> your_class_names with fully package </class>-->
+        <class>com.ngviet291.entity.Course</class>
+        <class>com.ngviet291.entity.Student</class>
+        <class>com.ngviet291.entity.Instructor</class>
+        <class>com.ngviet291.entity.Person</class>
+        <class>com.ngviet291.entity.Department</class>
+        <class>com.ngviet291.entity.OfficeAssignment</class>
+        <class>com.ngviet291.entity.OnsiteCourse</class>
+        <class>com.ngviet291.entity.StudentGrade</class>
+        <class>com.ngviet291.entity.OnlineCourse</class>
+    <properties>
+    <property name="jakarta.persistence.jdbc.driver"
+              value="org.mariadb.jdbc.Driver" />
+    <property name="jakarta.persistence.jdbc.url"
+              value="jdbc:mariadb://localhost:3306/viet23660721" />
+        <property name="jakarta.persistence.jdbc.user" value="root" />
+        <property name="jakarta.persistence.jdbc.password"
+                  value="sapassword" />
+        <property name="jakarta.persistence.jdbc.dialect"
+                  value="org.hibernate.dialect.MariaDBDialect" />
+        <property name="hibernate.show_sql" value="true" />
+        <property name="hibernate.format_sql" value="true" />
+        <property name="hibernate.hbm2ddl.auto" value="update" />
+    </properties>
+    </persistence-unit>
+</persistence>
