@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/data/data_complete.sql" value="8f880944-7278-4242-a886-dea5328c437d" />
-    <file url="file://$PROJECT_DIR$/data/data_today.sql" value="8f880944-7278-4242-a886-dea5328c437d" />
-    <file url="file://$PROJECT_DIR$/data/insert_shows_today_no_tickets.sql" value="8f880944-7278-4242-a886-dea5328c437d" />
-  </component>
-</project>

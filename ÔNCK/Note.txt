@@ -1,0 +1,3 @@
+- TABLE_PER_CLASS là Mỗi class con sẽ có 1 bảng RIÊNG hoàn toàn.Class cha thường không có bảng riêng
+- SINGLE_TABLE là TẤT CẢ class cha + class con lưu chung 1 bảng.
+- JOINED là Class cha 1 bảng Mỗi class con 1 bảng riêng

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/data/data_complete.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/data/data_today.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/data/insert_shows_today_no_tickets.sql" dialect="MariaDB" />
-  </component>
-</project>
