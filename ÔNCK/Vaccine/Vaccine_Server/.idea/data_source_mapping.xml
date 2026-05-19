@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/sql/mariadb_insert_data.sql" value="efae82c7-2b67-40e2-a3dd-c0821b9c578a" />
+  </component>
+</project>

@@ -39,11 +39,11 @@ public class Client {
                         }
                         case 3->{
                             MovieDTO movieDTO = MovieDTO.builder().id("M45543").title("ascsa")
-                .director("2wsqqwe")
-                .releaseYear(2004)
-                .genre("sadsa")
-                .duration(36)
-                .build();
+                            .director("2wsqqwe")
+                            .releaseYear(2004)
+                            .genre("sadsa")
+                            .duration(36)
+                            .build();
                             request = Request.builder().commandType(CommandType.ADD_MOVIE).data(movieDTO).build();
                         }
                     }

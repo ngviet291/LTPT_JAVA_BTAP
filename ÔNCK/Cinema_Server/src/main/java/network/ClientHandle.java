@@ -2,40 +2,40 @@ package network;
 
 import dto.MovieDTO;
 import dto.ShowDTO;
-import service.MovieService;
-import service.ShowService;
+import service.impl.MovieServiceImpl;
+import service.impl.ShowServiceImpl;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.Set;
 
 public class ClientHandle implements Runnable {
     private Socket socket;
-    private ObjectInputStream ois;
-    private ObjectOutputStream oos;
     public ClientHandle(Socket socket) {
         this.socket = socket;
     }
 
     @Override
     public void run() {
+        ObjectInputStream ois=null;
+        ObjectOutputStream oos= null;
         try {
-            oos = new ObjectOutputStream(socket.getOutputStream());
+            oos= new ObjectOutputStream(socket.getOutputStream());
             ois = new ObjectInputStream(socket.getInputStream());
-            MovieService movieService = new MovieService();
-            ShowService showService= new ShowService();
+            ShowServiceImpl showService = new ShowServiceImpl();
+            MovieServiceImpl movieService = new MovieServiceImpl();
             while (true){
-                Request request= (Request) ois.readObject();
                 Response response = null;
+                Request request = (Request) ois.readObject();
                 switch (request.getCommandType()){
-                    case LIST_SHOWS -> {
+                    case LIST_SHOW -> {
                         response = Response.builder().data(showService.listShowsByCurrentDateAndDirector((String) request.getData())).build();
                     }
-                    case UPDATE_SHOW -> {
+                    case UPDATE_TIME_SHOW -> {
                         ShowDTO showDTO = (ShowDTO) request.getData();
-                        boolean result = showService.updateShowDateTime(showDTO.getId(),showDTO.getShowDateTime());
-                        response = Response.builder().data(result).build();
+                        response = Response.builder().data(showService.updateShowDateTime(showDTO)).build();
                     }
                     case ADD_MOVIE -> {
                         MovieDTO movieDTO = (MovieDTO) request.getData();
@@ -45,20 +45,19 @@ public class ClientHandle implements Runnable {
                 oos.writeObject(response);
                 oos.flush();
             }
+
+
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
         finally {
             try {
-                if(ois!=null){
-                    ois.close();
-                }
-                if (oos!=null){
+                if(oos!=null)
                     oos.close();
-                }
-                if(socket!=null){
+                if(ois!=null)
+                    ois.close();
+                if(socket!=null)
                     socket.close();
-                }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
